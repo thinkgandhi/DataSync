@@ -19,7 +19,7 @@ namespace BridgePattern
             //Execute
             using IHost host = builder.Build();
            
-
+            //Comes within the hangfire job
             EmployeeSync sync = host.Services.GetService(typeof(EmployeeSync)) as EmployeeSync;
             sync.LoadData();
             sync.UploadAllRecords();

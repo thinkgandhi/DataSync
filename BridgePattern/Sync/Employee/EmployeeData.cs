@@ -22,11 +22,15 @@ namespace BridgePattern.Sync.Employee
         public override void LoadData()
         {
             Console.WriteLine("Loading Data");
+            //Call the database and get the records
+            
+            _employees.Add(new Employee("emp1","raja","097788"));
         }
 
         public override void UploadAllRecords()
         {
             Console.WriteLine("Uploading Data");
+            
         }
 
         

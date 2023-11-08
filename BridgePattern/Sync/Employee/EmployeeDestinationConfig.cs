@@ -2,5 +2,12 @@
 
 public class EmployeeDestinationConfig : IDestinationConfig
 {
-    public string DestinationString { get; set; }
+    public string clientid { get; set; }
+    public string clientsecret { get; set; }
+    public string ApiEndpoint { get; set; }
+
+    public EmployeeDestinationConfig()
+    {
+        
+    }
 }

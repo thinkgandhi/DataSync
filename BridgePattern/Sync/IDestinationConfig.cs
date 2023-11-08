@@ -1,6 +1,12 @@
 ﻿namespace BridgePattern.Sync;
 
-public interface IDestinationConfig
+public interface IDestinationConfig : IAuthenticationConfig
 {
-    string DestinationString { get; set; }
+    string ApiEndpoint { get; set; }
+}
+
+public interface IAuthenticationConfig
+{
+    string clientid { get; set; }
+    string clientsecret { get; set; }
 }
