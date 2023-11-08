@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/BridgePattern/.vs/BridgePattern
+/BridgePattern/bin/Debug/net7.0
+/BridgePattern/obj
